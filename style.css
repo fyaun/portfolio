@@ -406,11 +406,13 @@ section {
 .swiper-button-prev,
 .swiper-button-next {
   outline: none;
+  z-index: 1;
 }
 
 .swiper-pagination {
   width: 100%;
   margin-top: 10px;
+  z-index: 1;
 }
 
 .swiper-pagination-bullet {
