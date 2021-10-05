@@ -55,3 +55,11 @@ h2:after {
     background-size: cover;
 }
 
+.end-message {
+  display: none;
+}
+
+.false-message {
+  display: none;
+}
+
