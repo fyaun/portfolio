@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/*======================
+共通
+=======================*/
+
+h1,h2,nav,.btn,footer {
+    font-family: 'HanziPen SC','Chalkduster','Arial Rounded MT Bold','Arial',sans-serif;
+}
+
+h2 {
+    position: relative;
+    padding: 0.25em 1em;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+    width: 50%;
+    margin: 0 auto;
+}
+
+h2:before, h2::after {
+    content: '';
+    position: absolute;
+    top: -7px;
+    width: 2px;
+    height: -webkit-calc(100% + 14px);
+    height: calc(100% + 14px);
+    background-color: black;
+  }
+
+h2:before {
+    left: 7px;
+}
+h2:after {
+    right: 7px;
+}
+
+.shadow {
+  filter: drop-shadow(10px 10px 10px rgba(0,0,0,0.6));
+}
+
+
+.btn {
+  border-radius: 5px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+}
+
+/*==========================
+.top
+============================*/
+
+.top {
+    background-image: url(../img/top-title.png);
+    background-size: cover;
+}
+
